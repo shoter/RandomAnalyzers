@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomAnalyzers.RequiredProperty", "RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty.csproj", "{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomAnalyzers.RequiredProperty.Test", "RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty.Test\RandomAnalyzers.RequiredProperty.Test.csproj", "{3435D0DD-A004-4263-9BBD-B4FA98442840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomAnalyzers.RequiredProperty.Vsix", "RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty.Vsix\RandomAnalyzers.RequiredProperty.Vsix.csproj", "{52F35E9A-146C-4020-AD4F-A5642CF55F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomAnalyzers.RequiredProperty.Lib", "RandomAnalyzers.RequiredProperty.Lib\RandomAnalyzers.RequiredProperty.Lib.csproj", "{914BECD7-1005-4B64-8345-0A1F0F526AA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3435D0DD-A004-4263-9BBD-B4FA98442840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3435D0DD-A004-4263-9BBD-B4FA98442840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3435D0DD-A004-4263-9BBD-B4FA98442840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3435D0DD-A004-4263-9BBD-B4FA98442840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F35E9A-146C-4020-AD4F-A5642CF55F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F35E9A-146C-4020-AD4F-A5642CF55F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F35E9A-146C-4020-AD4F-A5642CF55F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F35E9A-146C-4020-AD4F-A5642CF55F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914BECD7-1005-4B64-8345-0A1F0F526AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914BECD7-1005-4B64-8345-0A1F0F526AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914BECD7-1005-4B64-8345-0A1F0F526AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914BECD7-1005-4B64-8345-0A1F0F526AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2F4A084-50A2-4966-BD90-7DE3ED85F8B4}
+	EndGlobalSection
+EndGlobal
