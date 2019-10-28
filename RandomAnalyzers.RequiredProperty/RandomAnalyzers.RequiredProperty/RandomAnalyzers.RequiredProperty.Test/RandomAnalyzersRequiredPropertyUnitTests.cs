@@ -4,9 +4,9 @@ using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using TestHelper;
-using RandomAnalyzers.RequiredProperty;
+using RandomAnalyzers.RequiredMember;
 
-namespace RandomAnalyzers.RequiredProperty.Test
+namespace RandomAnalyzers.RequiredMember.Test
 {
     [TestClass]
     public class UnitTest : CodeFixVerifier

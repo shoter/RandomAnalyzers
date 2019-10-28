@@ -7,20 +7,27 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>RandomAnalyzers.RequiredProperty</PackageId>
+    <PackageId>RandomAnalyzers.RequiredMember</PackageId>
     <PackageVersion>1.0.0.0</PackageVersion>
-    <Authors>Damian</Authors>
-    <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
-    <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
-    <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
-    <RepositoryUrl>http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE</RepositoryUrl>
+    <Authors>Shoter</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>RandomAnalyzers.RequiredProperty</Description>
-    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
+    <Description>Provides RequiredMemberAttribute used to mark properties of given classes/structs as required properties. Properties annotated with this attribute will be required inside object initializer.</Description>
+    <PackageReleaseNotes>1.0.0: 
+Intial version</PackageReleaseNotes>
     <Copyright>Copyright</Copyright>
-    <PackageTags>RandomAnalyzers.RequiredProperty, analyzers</PackageTags>
+    <PackageTags>RandomAnalyzers.RequiredMember, analyzers</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Shoter</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Product>RandomAnalyzers.RequiredMember</Product>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,6 +44,10 @@
   <ItemGroup>
     <None Update="tools\*.ps1" CopyToOutputDirectory="Always" Pack="true" PackagePath="" />
     <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    <None Include="..\..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 

@@ -126,10 +126,10 @@
     <comment>The title of the diagnostic.</comment>
   </data>
   <data name="MultiplePropertyMessage" xml:space="preserve">
-    <value>{0} requires "{1}" property to be initialized.</value>
+    <value>Properties "{1}" need to be initialized for {0}.</value>
   </data>
   <data name="SinglePropertyMessage" xml:space="preserve">
-    <value>{0} requires "{1}" properties to be initialized.</value>
+    <value>Property "{1}" needs to be initialized for {0}.</value>
     <comment>The format-able message the diagnostic displays.</comment>
   </data>
 </root>

@@ -13,7 +13,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Rename;
 using Microsoft.CodeAnalysis.Text;
 
-namespace RandomAnalyzers.RequiredProperty
+namespace RandomAnalyzers.RequiredMember
 {
     [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(RandomAnalyzersRequiredPropertyCodeFixProvider)), Shared]
     public class RandomAnalyzersRequiredPropertyCodeFixProvider : CodeFixProvider

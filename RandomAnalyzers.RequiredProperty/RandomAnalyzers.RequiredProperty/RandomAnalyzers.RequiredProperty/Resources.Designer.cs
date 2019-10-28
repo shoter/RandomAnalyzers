@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RandomAnalyzers.RequiredProperty {
+namespace RandomAnalyzers.RequiredMember {
     using System;
     using System.Reflection;
     
@@ -40,7 +40,7 @@ namespace RandomAnalyzers.RequiredProperty {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RandomAnalyzers.RequiredProperty.Resources", typeof(Resources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RandomAnalyzers.RequiredMember.Resources", typeof(Resources).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -80,7 +80,7 @@ namespace RandomAnalyzers.RequiredProperty {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} requires &quot;{1}&quot; property to be initialized..
+        ///   Looks up a localized string similar to Properties &quot;{1}&quot; need to be initialized for {0}..
         /// </summary>
         internal static string MultiplePropertyMessage {
             get {
@@ -89,7 +89,7 @@ namespace RandomAnalyzers.RequiredProperty {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} requires &quot;{1}&quot; properties to be initialized..
+        ///   Looks up a localized string similar to Property &quot;{1}&quot; needs to be initialized for {0}..
         /// </summary>
         internal static string SinglePropertyMessage {
             get {

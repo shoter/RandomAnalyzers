@@ -8,7 +8,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Diagnostics;
 
-namespace RandomAnalyzers.RequiredProperty
+namespace RandomAnalyzers.RequiredMember
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
     public class RandomAnalyzersRequiredPropertyAnalyzer : DiagnosticAnalyzer
@@ -45,25 +45,26 @@ namespace RandomAnalyzers.RequiredProperty
 
             var creations = nodes.Where(n => n.IsKind(SyntaxKind.ObjectCreationExpression)).Cast<ObjectCreationExpressionSyntax>();
 
-            List<string> requiredProperties = new List<string>();
 
             foreach(var creation in creations)
             {
+                List<string> requiredProperties = new List<string>();
+
                 var createdType = model.GetTypeInfo(creation);
 
                 foreach(var member in createdType.Type.GetMembers())
                 {
-                    if(member is IPropertySymbol property)
+                    if(member is IPropertySymbol || member is IFieldSymbol)
                     {
-                        foreach(AttributeData attrData in property.GetAttributes())
+                        foreach(AttributeData attrData in member.GetAttributes())
                         {
                             SymbolDisplayFormat displayFormat = new SymbolDisplayFormat(typeQualificationStyle: SymbolDisplayTypeQualificationStyle.NameAndContainingTypesAndNamespaces);
 
                             string fullName = attrData.AttributeClass.ToDisplayString();
 
-                            if(fullName == "RandomAnalyzers.RequiredProperty.RequiredPropertyAttribute")
+                            if(fullName == "RandomAnalyzers.RequiredMember.RequiredMemberAttribute")
                             {
-                                requiredProperties.Add(property.Name);
+                                requiredProperties.Add(member.Name);
                             }
 
                         }
@@ -108,14 +109,7 @@ namespace RandomAnalyzers.RequiredProperty
 
                     context.ReportDiagnostic(diagnostic);
                 }
-
-
-
             }
-
-
-            
-
         }
     }
 }

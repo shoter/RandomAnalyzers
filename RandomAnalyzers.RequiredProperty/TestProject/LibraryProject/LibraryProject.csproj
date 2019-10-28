@@ -2,8 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>RandomAnalyzers.RequiredProperty</AssemblyName>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomAnalyzers.RequiredMember" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+   
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomAnalyzers.RequiredMember" Version="1.0.0" />
+  </ItemGroup>
+
+
+</Project>

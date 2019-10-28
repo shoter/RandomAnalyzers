@@ -54,9 +54,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty.csproj">
+    <ProjectReference Include="..\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredMember.csproj">
       <Project>{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}</Project>
-      <Name>RandomAnalyzers.RequiredProperty</Name>
+      <Name>RandomAnalyzers.RequiredMember</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredProperty.csproj" />
+    <ProjectReference Include="..\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredMember.csproj" />
   </ItemGroup>
 
 </Project>
