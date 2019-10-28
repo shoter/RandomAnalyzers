@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AnalyzerDescription" xml:space="preserve">
-    <value>All of those properties should be initialized inside initialization statement.</value>
+    <value>All of those members should be initialized inside initialization statement.</value>
     <comment>An optional longer localizable description of the diagnostic.</comment>
   </data>
   <data name="AnalyzerTitle" xml:space="preserve">
-    <value>Type contains properties that are required during initialization phase</value>
+    <value>Type contains members that are required during initialization phase</value>
     <comment>The title of the diagnostic.</comment>
   </data>
-  <data name="MultiplePropertyMessage" xml:space="preserve">
-    <value>Properties "{1}" need to be initialized for {0}.</value>
+  <data name="MultipleMembersMessage" xml:space="preserve">
+    <value>Members "{1}" need to be initialized for {0}.</value>
   </data>
-  <data name="SinglePropertyMessage" xml:space="preserve">
-    <value>Property "{1}" needs to be initialized for {0}.</value>
+  <data name="SingleMemberMessage" xml:space="preserve">
+    <value>Member "{1}" needs to be initialized for {0}.</value>
     <comment>The format-able message the diagnostic displays.</comment>
   </data>
 </root>

@@ -62,7 +62,7 @@ namespace RandomAnalyzers.RequiredMember {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All of those properties should be initialized inside initialization statement..
+        ///   Looks up a localized string similar to All of those members should be initialized inside initialization statement..
         /// </summary>
         internal static string AnalyzerDescription {
             get {
@@ -71,7 +71,7 @@ namespace RandomAnalyzers.RequiredMember {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Type contains properties that are required during initialization phase.
+        ///   Looks up a localized string similar to Type contains members that are required during initialization phase.
         /// </summary>
         internal static string AnalyzerTitle {
             get {
@@ -80,20 +80,20 @@ namespace RandomAnalyzers.RequiredMember {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Properties &quot;{1}&quot; need to be initialized for {0}..
+        ///   Looks up a localized string similar to Members &quot;{1}&quot; need to be initialized for {0}..
         /// </summary>
-        internal static string MultiplePropertyMessage {
+        internal static string MultipleMembersMessage {
             get {
-                return ResourceManager.GetString("MultiplePropertyMessage", resourceCulture);
+                return ResourceManager.GetString("MultipleMembersMessage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Property &quot;{1}&quot; needs to be initialized for {0}..
+        ///   Looks up a localized string similar to Member &quot;{1}&quot; needs to be initialized for {0}..
         /// </summary>
-        internal static string SinglePropertyMessage {
+        internal static string SingleMemberMessage {
             get {
-                return ResourceManager.GetString("SinglePropertyMessage", resourceCulture);
+                return ResourceManager.GetString("SingleMemberMessage", resourceCulture);
             }
         }
     }

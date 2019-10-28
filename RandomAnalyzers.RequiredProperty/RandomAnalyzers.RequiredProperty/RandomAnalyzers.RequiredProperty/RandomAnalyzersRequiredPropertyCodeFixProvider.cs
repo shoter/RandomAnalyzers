@@ -15,7 +15,8 @@ using Microsoft.CodeAnalysis.Text;
 
 namespace RandomAnalyzers.RequiredMember
 {
-    [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(RandomAnalyzersRequiredPropertyCodeFixProvider)), Shared]
+    // TODO for future
+   /* [ExportCodeFixProvider(LanguageNames.CSharp, Name = nameof(RandomAnalyzersRequiredPropertyCodeFixProvider)), Shared]
     public class RandomAnalyzersRequiredPropertyCodeFixProvider : CodeFixProvider
     {
         private const string title = "Make uppercase";
@@ -69,5 +70,5 @@ namespace RandomAnalyzers.RequiredMember
             // Return the new solution with the now-uppercase type name.
             return newSolution;
         }
-    }
+    }*/
 }

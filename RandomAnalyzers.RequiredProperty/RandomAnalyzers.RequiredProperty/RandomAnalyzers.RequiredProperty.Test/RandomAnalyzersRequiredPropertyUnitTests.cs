@@ -92,7 +92,8 @@ namespace RandomAnalyzers.RequiredMember.Test
 
         protected override CodeFixProvider GetCSharpCodeFixProvider()
         {
-            return new RandomAnalyzersRequiredPropertyCodeFixProvider();
+            throw new NotImplementedException();
+           // return new RandomAnalyzersRequiredPropertyCodeFixProvider();
         }
 
         protected override DiagnosticAnalyzer GetCSharpDiagnosticAnalyzer()

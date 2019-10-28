@@ -9,7 +9,7 @@
     <Product>RandomAnalyzers.RequiredMember</Product>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Company>Shoter</Company>
-    <Description>Provides RequiredMemberAttribute used to mark properties of given classes/structs as required properties. Properties annotated with this attribute will be required inside object initializer.</Description>
+    <Description>Provides RequiredMemberAttribute used to mark properties of given classes/structs as required members. Members annotated with this attribute will be required inside object initializer.</Description>
     <Copyright>Shoter © Calendar.GetYear()</Copyright>
     <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</PackageProjectUrl>
     <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</RepositoryUrl>
