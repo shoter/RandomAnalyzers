@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>RandomAnalyzers.RequiredProperty</AssemblyName>
+    <AssemblyName>RandomAnalyzers.RequiredMember.Lib</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>RandomAnalyzers.RequiredMember</PackageId>
     <Authors>Shoter</Authors>
@@ -15,7 +15,12 @@
     <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</RepositoryUrl>
     <PackageTags>RandomAnalyzers.RequiredMember, analyzers</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
+    <RootNamespace>RandomAnalyzers.RequiredMember</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RandomAnalyzers.RequiredMember.Analyzer" Version="1.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\LICENSE.txt">
@@ -23,5 +28,4 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
 </Project>

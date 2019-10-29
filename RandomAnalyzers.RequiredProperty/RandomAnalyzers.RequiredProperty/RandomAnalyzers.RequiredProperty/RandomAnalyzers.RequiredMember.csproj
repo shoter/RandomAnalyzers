@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>RandomAnalyzers.RequiredMember</PackageId>
+    <PackageId>RandomAnalyzers.RequiredMember.Analyzer</PackageId>
     <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>Shoter</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -28,6 +28,7 @@ Intial version</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Product>RandomAnalyzers.RequiredMember</Product>
     <Version>1.0.0</Version>
+    <AssemblyName>RandomAnalyzers.RequiredMember.Analyzer</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{8CB8339C-08C8-4757-AF75-C86BF0E142A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{8CB8339C-08C8-4757-AF75-C86BF0E142A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C063B34B-8DD9-4720-9A8E-ED9A4CF9E39E} = {C063B34B-8DD9-4720-9A8E-ED9A4CF9E39E}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryProject", "LibraryProject\LibraryProject.csproj", "{183113E0-AF06-406D-A227-2B0A3669916B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryProject", "LibraryProject\LibraryProject.csproj", "{183113E0-AF06-406D-A227-2B0A3669916B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetProject", "NugetProject\NugetProject.csproj", "{C063B34B-8DD9-4720-9A8E-ED9A4CF9E39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetProject", "NugetProject\NugetProject.csproj", "{C063B34B-8DD9-4720-9A8E-ED9A4CF9E39E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

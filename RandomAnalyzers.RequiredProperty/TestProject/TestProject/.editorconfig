@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# RandomAnalyzersRequiredMember: Type contains members that are required during initialization phase
+# dotnet_diagnostic.RandomAnalyzersRequiredMember.severity = error
