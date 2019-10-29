@@ -17,6 +17,17 @@ namespace TestProject
 
     }
 
+    public struct StructTest
+    {
+        [RequiredMember]
+        public int requiredProperty { get; set; }
+
+        public int notRequired { get; set; }
+
+        [RequiredMember]
+        public int requiredField;
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -134,5 +145,39 @@ namespace TestProject
                 requiredField = 456,
             };
         }
+        private static void diagnosticForTheSameFileForStruct()
+        {
+            // should not trigger warning
+            var test = new StructTest()
+            {
+                requiredField = 123,
+                requiredProperty = 456,
+            };
+
+            // should trigger warning - multiple prop msg
+            new StructTest();
+
+            // should show multiple prop msg
+            new StructTest()
+            {
+                notRequired = 123,
+            };
+
+            // should show singular prop msg
+            new StructTest()
+            {
+                notRequired = 345,
+                requiredProperty = 456,
+            };
+
+            // should show singular prop msg
+            new StructTest()
+            {
+                notRequired = 345,
+                requiredField = 456,
+            };
+        }
+
+
     }
 }
