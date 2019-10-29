@@ -10,9 +10,9 @@
     <PackageId>RandomAnalyzers.RequiredMember.Analyzer</PackageId>
     <Authors>Shoter</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>E:\Programowanie\C#\RandomAnalyzers\RandomAnalyzers.RequiredProperty</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryUrl>E:\Programowanie\C#\RandomAnalyzers\RandomAnalyzers.RequiredProperty</RepositoryUrl>
+    <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Provides Analyzer that will ensure proper usage of RequiredMember attribute from RandomAnalyzers.RequiredMember package.</Description>
     <PackageReleaseNotes>0.1.0:
