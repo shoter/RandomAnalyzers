@@ -1,3 +1,6 @@
+[![NuGet](https://img.shields.io/nuget/v/RandomAnalyzers.RequiredMember.svg)](https://www.nuget.org/packages/RandomAnalyzers.RequiredMember)
+
+
 ## Installation
 
 RequiredMember can be installed using the NuGet command line or the NuGet Package Manager in Visual Studio.
