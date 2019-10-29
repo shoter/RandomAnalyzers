@@ -1,24 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>RandomAnalyzers.RequiredMember.Analyzer</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>Shoter</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty/RandomAnalyzers.RequiredProperty/RandomAnalyzers.RequiredProperty</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredMember</RepositoryUrl>
+    <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty/RandomAnalyzers.RequiredProperty/RandomAnalyzers.RequiredProperty</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Provides RequiredMemberAttribute used to mark properties of given classes/structs as required properties. Properties annotated with this attribute will be required inside object initializer.</Description>
-    <PackageReleaseNotes>1.0.0: 
-Intial version</PackageReleaseNotes>
-    <Copyright>Copyright</Copyright>
+    <Description>Provides Analyzer that will ensure proper usage of RequiredMember attribute from RandomAnalyzers.RequiredMember package.</Description>
+    <PackageReleaseNotes>0.1.0:
+Test upload</PackageReleaseNotes>
+    <Copyright>Shoter © Calendar.GetYear()</Copyright>
     <PackageTags>RandomAnalyzers.RequiredMember, analyzers</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -26,9 +25,12 @@ Intial version</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Product>RandomAnalyzers.RequiredMember</Product>
-    <Version>1.0.0</Version>
+    <Product>RandomAnalyzers.RequiredMember.Analyzer</Product>
     <AssemblyName>RandomAnalyzers.RequiredMember.Analyzer</AssemblyName>
+    <RepositoryType>Github</RepositoryType>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
