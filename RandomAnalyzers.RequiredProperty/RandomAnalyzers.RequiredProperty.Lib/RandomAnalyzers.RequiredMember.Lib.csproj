@@ -25,7 +25,7 @@ Test upload</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RandomAnalyzers.RequiredMember.Analyzer" Version="1.0.0" />
+    <PackageReference Include="RandomAnalyzers.RequiredMember.Analyzer" Version="0.1.0" />
   </ItemGroup>
 
   <ItemGroup>
