@@ -22,7 +22,7 @@ Initial release
 
 Test upload</PackageReleaseNotes>
     <Copyright>Shoter © Calendar.GetYear()</Copyright>
-    <PackageTags>RandomAnalyzers.RequiredMember, analyzers</PackageTags>
+    <PackageTags>RandomAnalyzers.RequiredMember, analyzers, RandomAnalyzers, RequiredMember</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Company>Shoter</Company>
@@ -34,7 +34,7 @@ Test upload</PackageReleaseNotes>
     <RepositoryType>Github</RepositoryType>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0-rc1</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
