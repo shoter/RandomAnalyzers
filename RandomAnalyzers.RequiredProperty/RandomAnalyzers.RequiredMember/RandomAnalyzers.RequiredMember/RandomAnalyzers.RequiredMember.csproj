@@ -15,7 +15,11 @@
     <RepositoryUrl>https://github.com/shoter/RandomAnalyzers/tree/master/RandomAnalyzers.RequiredProperty</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Provides Analyzer that will ensure proper usage of RequiredMember attribute from RandomAnalyzers.RequiredMember package.</Description>
-    <PackageReleaseNotes>0.1.0:
+    <PackageReleaseNotes>1.0.0:
+Initial release
+
+0.1.0:
+
 Test upload</PackageReleaseNotes>
     <Copyright>Shoter © Calendar.GetYear()</Copyright>
     <PackageTags>RandomAnalyzers.RequiredMember, analyzers</PackageTags>
