@@ -54,7 +54,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RandomAnalyzers.RequiredProperty\RandomAnalyzers.RequiredMember.csproj">
+    <ProjectReference Include="..\RandomAnalyzers.RequiredMember\RandomAnalyzers.RequiredMember.csproj">
       <Project>{250F9E7C-A77E-42BD-8A2E-E3FD16856F66}</Project>
       <Name>RandomAnalyzers.RequiredMember</Name>
     </ProjectReference>
